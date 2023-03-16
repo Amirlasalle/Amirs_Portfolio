@@ -45,7 +45,7 @@ nav ul li a:hover{
     transition: .4s;
     box-shadow: white;
 }
-.btn{
+.btn1 {
     background-color: blue;
     color: white;
     text-decoration: none;
@@ -55,7 +55,7 @@ nav ul li a:hover{
     border-radius: 30px;
     transition: transform .4s;
 }
-.btn:hover{
+.btn1:hover{
    transform: scale(1.0625);
    box-shadow: 1px 1px 5px white, 1px 1px 5px #858585;
 }
@@ -80,35 +80,14 @@ h4{
     letter-spacing: 2px;
     font-size: 20px;
 }
-.newsletter form{
-    width: 380px;
-    max-width: 100%;
-    position: relative;
-}
-.newsletter form input:first-child{
-    display: inline-block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid blue;
-    outline: none;
-    border-radius: 30px;
-}
-.newsletter form input:last-child{
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: blue;
-    color: white;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    top: 6px;
-    right: 6px;
+
+.body{
+    background-color: black;
 }
 .about{
     width: 100%;
     padding: 100px 0px;
+    margin-top: 250px;
     background-color: #191919;
 }
 .about img{
@@ -179,8 +158,9 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
+    width: 100%;
 }
-.card{
+.card1{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -191,7 +171,7 @@ button:hover{
     overflow: hidden;
     text-align: center;
 }
-.card i{
+.card1 i{
     font-size: 50px;
     display: block;
     text-align: center;
